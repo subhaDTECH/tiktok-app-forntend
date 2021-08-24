@@ -1,0 +1,20 @@
+.video__footer{
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.song_ticker{
+    margin: 10px;
+    width:100%;
+   
+}
+ .ticker{
+    width:60%;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+
+}

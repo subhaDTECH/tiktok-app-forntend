@@ -1,0 +1,38 @@
+.videosidebar{
+    position: absolute;
+    display: flex;
+    bottom: 40px;
+    right: 0;
+    /* background-color:red; */
+    flex-direction: column;
+    margin-bottom: 20px;
+
+   
+}
+.side_icon {
+    padding: 20px;
+    color: #fff;
+}
+.side_icon > .MuiSvgIcon-root{
+    color: aliceblue !important;
+
+}
+.side_icon  > p{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.rotate_icon{
+    animation: rotate  linear infinite !important;
+    transform: 0.5s !important;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg) !important;
+    }
+    100%{
+        transform: rotate(360deg) !important;
+    }
+}
+/*  */
+/*  */
